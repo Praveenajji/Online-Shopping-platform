@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+  
+.top-header{
+    display: flex;
+    /* border:  solid 2px red; */
+    height: 10vh;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(255, 232, 103);
+
+}
+.header-left{
+    display: flex;
+    /* border:  solid 2px red; */
+    width: 30%;
+    height: 9vh;
+    justify-content:flex-start;
+    align-items: center;
+    /* background-color: rgb(255, 232, 103); */
+    
+}
+.header-right{
+    display: flex;
+    /* border:  solid 2px red; */
+    width: 30%;
+    height: 9vh;
+    justify-content:flex-end;
+    align-items: center;
+    /* background-color: rgb(255, 232, 103); */
+}
+.left-icon{
+display: flex;
+margin-left: 25px;
+}
+
+.loc-text{
+    margin-left: 5px;
+}
+.right-icon{
+    display: flex;
+ margin-right: 25px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 9vh;
+    /* border:  solid 2px red; */
+    align-items: center;
+    /* background-color: rgb(255, 232, 103); */
+}
+.shop p{
+    font-size: 50px;
+    font-family: "Tangerine", serif;;
+}
+.search-bar{
+    height: 8vh;
+    /* border:solid 1px red; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+.search-text{
+    height: 6vh;
+    border:  solid 2px rgb(31, 28, 28);
+    width: 93vw;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.submenu{
+    display: flex;
+    /* border: solid 1px red; */
+    margin-top:5vh;
+    width: 30%;
+    height: 10vh;
+    justify-content:flex-start;
+    align-items: center;
+    
+
+}
+.filter{
+  display: flex;
+    border: solid 2px rgb(12, 11, 11);
+    width: 35%;
+    height: 8vh;
+    margin:20px ;
+    border-radius: 30px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(203, 193, 247);
+
+}
+
+.products-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px red; */
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.products{
+    height: 50vh;
+    width:20vw ;
+    /* border: solid 2px red; */
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:self-end;
+    
+    
+}
+.details{
+    /* border: solid 2px red; */
+    height: 45vh ;
+    width:17vw ;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(207, 212, 216, 0.897);
+    
+}
+.img-chip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px red; */
+}
+.details img{
+    margin-top: -40px;
+    height: 20vh;
+    
+
+}
+.heart-like{
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    /* border: solid 2px red; */
+}
+.heart-par{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* border: solid 2px red; */
+}
+.heart-rupees{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    /* border: solid 2px red; */
+}
+.heart-cart{
+    margin-top: 60px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* border: solid 2px red; */
+}
+.heart-cart button{
+   color:black;
+    background-color:white;
+    border-radius: 30px;
+    border: 1px;
+    padding: 5px;
+     /* border: solid 2px red;*/
+}
+.heart-delete{
+	display: flex;
+    justify-content:center;
+    align-items:center;
+   /* border: solid 2px red;*/
+   margin-top:10px;
+    
+}
+.heart-delete a{
+	text-decoration: none;
+	 border-radius: 30px;
+    /*border: solid 1px red;*/
+    padding: 3px 18px;
+    color:black;
+    background-color:white;
+}
+
+
+
+.start-method{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60vh;
+    
+}
+.start-add ,.start-display{
+    border-radius: 30px;
+    border: solid 1px red;
+    padding: 20px;
+    
+    background-color:lightblue;
+}
+.start-add a,.start-display a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* add.html */
+.heart-par input ,.heart-rupees input{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 1px;
+}
+.heart-cart input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -10px;
+}
